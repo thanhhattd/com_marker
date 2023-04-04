@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_MARKER_FORM_LBL_MARKER_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_MARKER_FORM_LBL_MARKER_CREATED_BY"
+            description="COM_MARKER_FORM_DESC_MARKER_CREATED_BY"  /> 
+
+       <field name="title" type="text"
+                
+            label="COM_MARKER_FORM_LBL_MARKER_TITLE"
+            description="COM_MARKER_FORM_DESC_MARKER_TITLE" 
+                 default="Point #" 
+                
+                 /> 
+
+       <field name="latitude" type="text" size="40" class="inputbox"
+        
+            label="COM_MARKER_FORM_LBL_MARKER_LATITUDE"
+            description="COM_MARKER_FORM_DESC_MARKER_LATITUDE" 
+        
+        
+        
+        filter="safehtml" /> 
+
+       <field name="longtitude" type="text" size="40" class="inputbox"
+        
+            label="COM_MARKER_FORM_LBL_MARKER_LONGTITUDE"
+            description="COM_MARKER_FORM_DESC_MARKER_LONGTITUDE" 
+        
+        
+        
+        filter="safehtml" /> 
+
+       <field name="altitude" type="text" size="40" class="inputbox"
+        
+            label="COM_MARKER_FORM_LBL_MARKER_ALTITUDE"
+            description="COM_MARKER_FORM_DESC_MARKER_ALTITUDE" 
+        
+        
+        
+        filter="safehtml" /> 
+
+       <field name="category" type="text"
+                
+            label="COM_MARKER_FORM_LBL_MARKER_CATEGORY"
+            description="COM_MARKER_FORM_DESC_MARKER_CATEGORY" 
+                
+                
+                 /> 
+
+       <field name="location" type="text"
+                
+            label="COM_MARKER_FORM_LBL_MARKER_LOCATION"
+            description="COM_MARKER_FORM_DESC_MARKER_LOCATION" 
+                
+                
+                 /> 
+
+       <field name="description" type="text"
+                
+            label="COM_MARKER_FORM_LBL_MARKER_DESCRIPTION"
+            description="COM_MARKER_FORM_DESC_MARKER_DESCRIPTION" 
+                
+                
+                 /> 
+
+       <field name="images" type="media"
+                
+            label="COM_MARKER_FORM_LBL_MARKER_IMAGES"
+            description="COM_MARKER_FORM_DESC_MARKER_IMAGES" 
+                
+                
+                
+            directory="marker" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>
