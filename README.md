@@ -11,11 +11,6 @@ Mô tả:
 - Nhập xuất dữ liệu dạng .csv, .xls, xlsx
 - Hiển thị dữ liệu dạng danh sách, bản đồ các điểm mốc
 
-Thành phần:
-- com_marker.zip
-- Xay dung ung dung da nen tang su dung Joomla 3.pdf
-- README.TXT
-
 Cách cài đặt:
 - Chỉ thích hợp với Joomla! 3 trở lên
 - Cài đặt bằng tab Install trong Extension Manager phía administrator
